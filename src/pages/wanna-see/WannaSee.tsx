@@ -139,29 +139,6 @@ export const WannaSee: FC = () => {
                         >
                             Say Hello 👋
                         </Box>
-                        <Box
-                            as="a"
-                            href={configs.common.linkedin}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            px="8"
-                            py="3.5"
-                            borderRadius="full"
-                            fontSize="md"
-                            fontWeight="700"
-                            letterSpacing="wide"
-                            border="1px solid"
-                            borderColor={cardBorder}
-                            color={mutedColor}
-                            transition="all 0.25s"
-                            _hover={{
-                                borderColor: "cyan.400",
-                                color: "cyan.400",
-                                transform: "translateY(-2px)",
-                            }}
-                        >
-                            LinkedIn
-                        </Box>
                     </Flex>
                 </Box>
             </Box>

@@ -8,14 +8,9 @@
     "mainPictureJPG": "/assets/karthik_dp1.jpeg",
     "cssVarPrefix": "",
     "email": "saikarthikmaddirala05@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/sai-karthik-maddirala-0067571a8/",
     "github": "https://github.com/karthikmaddirala",
     "resume": "/assets/resume.pdf",
     "socials": [
-        {
-            "type": "linkedin",
-            "link": "https://www.linkedin.com/in/sai-karthik-maddirala-0067571a8/"
-        },
         {
             "type": "github",
             "link": "https://github.com/karthikmaddirala"
