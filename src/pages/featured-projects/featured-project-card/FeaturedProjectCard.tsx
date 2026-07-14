@@ -2,7 +2,6 @@ import { FC, useState } from "react";
 
 import {
     Box,
-    Flex,
     HStack,
     Image,
     Modal,
@@ -267,7 +266,6 @@ export const FeaturedProjectCard: FC<ProjectCardProps> = (props) => {
     const cardBg = useColorModeValue("rgba(255,255,255,0.65)", "rgba(10,10,22,0.7)");
     const cardBorder = useColorModeValue("rgba(0,217,255,0.18)", "rgba(0,217,255,0.15)");
     const mutedColor = useColorModeValue("gray.600", "whiteAlpha.700");
-    const overlayBg = useColorModeValue("rgba(255,255,255,0.9)", "rgba(10,10,22,0.9)");
 
     return (
         <>
