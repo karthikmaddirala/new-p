@@ -22,7 +22,9 @@ export const About: FC = () => {
     const mutedColor = useColorModeValue("gray.600", "whiteAlpha.700");
 
     const summary =
-        "AI/ML Engineer specializing in Generative AI and LLM agents. Build AR virtual try-on and retrieval-augmented (RAG) systems with PyTorch, LangChain, and Claude/OpenAI APIs, owning the lifecycle from training through real-time inference, deployment, and monitoring.";
+        "AI/ML Engineer specializing in Generative AI and LLM agents.\n" +
+        "Building AR virtual try-on and retrieval-augmented (RAG) systems with PyTorch, LangChain, and Claude/OpenAI APIs.\n" +
+        "Owning the lifecycle from training through real-time inference, deployment, and monitoring.";
 
     return (
         <Box>
@@ -96,7 +98,7 @@ export const About: FC = () => {
                         Kansas, USA &nbsp;·&nbsp; Open to Opportunities
                     </Text>
 
-                    <Text fontSize={{ base: "sm", md: "md" }} color={mutedColor} lineHeight="1.85" maxW="640px">
+                    <Text fontSize={{ base: "sm", md: "md" }} color={mutedColor} lineHeight="1.85" maxW="640px" whiteSpace="pre-line">
                         {summary}
                     </Text>
 
