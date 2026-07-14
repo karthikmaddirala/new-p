@@ -18,9 +18,8 @@ import { ArticleTitle } from "pages/about/common/title/Title";
 const MotionBox = motion(Box);
 
 const companyColors: Record<string, string> = {
-    "Chubb Limited": "cyan",
-    "Epic Games": "purple",
-    "Tejas Networks": "blue",
+    "CDF (Remote)": "cyan",
+    "Hex N Bit": "purple",
 };
 
 const ExperienceCard: FC<{

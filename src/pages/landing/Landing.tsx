@@ -289,7 +289,7 @@ export const Landing: FC = () => {
                             >
                                 <Text fontSize="xs" color={mutedColor} fontWeight="500">Current Role</Text>
                                 <Text fontSize="sm" fontWeight="700" color="cyan.400">
-                                    AI / ML Engineer @ Chubb
+                                    ML Engineer @ CDF
                                 </Text>
                             </Box>
                         </Box>
