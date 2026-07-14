@@ -7,10 +7,10 @@
     "mainPicture": "/assets/karthik_dp1.webp",
     "mainPictureJPG": "/assets/karthik_dp1.jpeg",
     "cssVarPrefix": "",
-    "email": "saikarthikmaddirala0@gmail.com",
+    "email": "saikarthikmaddirala05@gmail.com",
     "linkedin": "https://www.linkedin.com/in/sai-karthik-maddirala-0067571a8/",
     "github": "https://github.com/karthikmaddirala",
-    "resume": "https://drive.google.com/file/d/1TCccud-0fLR_tOre3x0cz9OYfDDXoxDA/view?usp=sharing",
+    "resume": "/assets/resume.pdf",
     "socials": [
         {
             "type": "linkedin",
@@ -22,7 +22,7 @@
         },
         {
             "type": "mail",
-            "link": "mailto:saikarthikmaddirala0@gmail.com"
+            "link": "mailto:saikarthikmaddirala05@gmail.com"
         }
     ]
 }

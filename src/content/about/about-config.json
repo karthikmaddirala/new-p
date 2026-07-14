@@ -12,149 +12,104 @@
     ],
     "experiences": [
         {
-            "id": "exp-chubb",
-            "company": "Chubb Limited",
-            "position": "AI / ML Engineer",
-            "duration": "Feb 2026 – Present",
+            "id": "exp-cdf",
+            "company": "CDF (Remote)",
+            "position": "ML Engineer",
+            "duration": "Mar 2026 – Present",
             "description": [
-                "Contributed to an internal RAG-based document search prototype for insurance policy and claims documentation, helping reduce manual document lookup time by ~40% in internal user testing across a pilot group of 15 underwriters.",
-                "Worked with the Generative AI team on RAG applications integrated with vector database FAISS to index ~15K unstructured policy documents.",
-                "Used LangChain and OpenAI APIs to build proof-of-concept retrieval and Q&A workflows, iterating on prompt design and evaluation to achieve ~85% answer relevance on a 200-question internal benchmark.",
-                "Designed real-time and batch ETL/Data Pipelines using PySpark, Apache Kafka, and Apache Airflow for processing large-scale structured and unstructured data."
+                "Own the end-to-end ML lifecycle for an augmented-reality virtual try-on feature — dataset curation and labeling, training, evaluation, deployment, and monitoring — taking models from prototype to production on a live camera feed.",
+                "Built PyTorch training and fine-tuning pipelines with augmentation, loss tuning, and hyperparameter search, lifting model accuracy from 79% to 88% (0.89 mIoU) on a 5K-image validation set.",
+                "Cut serving latency 45% (110ms to 60ms) and model size 65% through INT8 quantization, pruning, and ONNX/TensorRT export, sustaining 25–30 FPS real-time inference on mid-range mobile devices.",
+                "Built MLOps tooling — automated labeling, training, and evaluation with MLflow experiment tracking — cutting the retrain-and-evaluate cycle from 2 days to 6 hours.",
+                "Deployed containerized models on Kubernetes with data-drift monitoring, and validated releases through A/B testing, driving a 14% lift in product-page engagement in a pilot rollout."
             ]
         },
         {
-            "id": "exp-epic",
-            "company": "Epic Games",
-            "position": "Machine Learning Engineer",
-            "duration": "Jul 2024 – Dec 2025",
+            "id": "exp-hexnbit",
+            "company": "Hex N Bit",
+            "position": "Machine Learning Intern",
+            "duration": "Jun 2021 – Aug 2021",
             "description": [
-                "Developed and deployed AI/ML models supporting player behavior prediction, content recommendation, churn analysis, and gaming analytics using Python, Scikit-learn, XGBoost, and LightGBM.",
-                "Designed and deployed recommendation models using PyTorch and TorchRec, reducing model inference latency by ~35% through optimization and serving improvements.",
-                "Contributed to end-to-end MLOps pipelines using Docker, Kubernetes, Jenkins, and MLflow, supporting faster release cadence for Fortnite's Discovery ranking models.",
-                "Developed data preprocessing and feature engineering pipelines on Databricks using Pandas, NumPy, SQL, and PySpark, processing 5TB+ of gameplay data and reducing daily training job runtime from 6 hours to 2 hours.",
-                "Ran 8–10 A/B experiments across tenure; implemented model versioning and experiment tracking using MLflow and DVC."
-            ]
-        },
-        {
-            "id": "exp-tejas",
-            "company": "Tejas Networks",
-            "position": "Data Scientist",
-            "duration": "Dec 2021 – May 2023",
-            "description": [
-                "Built ML models using Scikit-learn, XGBoost, and LightGBM for anomaly detection and fault classification on equipment telemetry, improving fault classification accuracy from ~76% to ~84% across ~2,000 deployed network elements.",
-                "Performed time-series forecasting using ARIMA and Prophet to support internal revenue and demand planning, reducing forecast error on a key product line from ~15% to ~11%.",
-                "Built ETL pipelines using Apache Spark, Hive, SQL, and Apache Airflow handling ~10GB of weekly data, improving pipeline runtime by ~40% through partitioning and query optimization.",
-                "Created Power BI dashboards and automated reports for engineering and finance stakeholders, reducing manual reporting effort by 6–8 hours per week."
+                "Delivered a loan approval prediction model reaching 0.86 ROC-AUC, benchmarking Logistic Regression, Random Forest, and XGBoost across 5-fold cross-validation.",
+                "Lifted default-class recall from 68% to 81% by engineering features from income, credit history, and employment attributes and countering class imbalance with SMOTE resampling.",
+                "Tuned decision thresholds to reduce projected default risk 12% at a comparable approval rate, and used feature-importance analysis to explain predictions to reviewers."
             ]
         }
     ],
     "skills": [
         {
-            "title": "Languages",
+            "title": "Programming",
             "tools": [
                 "Python",
                 "SQL",
                 "JavaScript",
                 "TypeScript",
+                "Node.js",
+                "React",
                 "Bash"
             ]
         },
         {
             "title": "Machine Learning",
             "tools": [
-                "Scikit-learn",
-                "XGBoost",
-                "LightGBM",
-                "Regression",
-                "Classification",
-                "Clustering",
-                "Feature Engineering",
-                "Hyperparameter Tuning",
-                "SHAP",
-                "LIME"
-            ]
-        },
-        {
-            "title": "Deep Learning",
-            "tools": [
                 "PyTorch",
                 "TensorFlow",
-                "Keras",
-                "CNN",
-                "RNN",
-                "LSTM",
-                "Transformers",
-                "BERT"
+                "Scikit-learn",
+                "XGBoost",
+                "Deep Learning",
+                "Model Evaluation",
+                "A/B Testing"
             ]
         },
         {
             "title": "Generative AI & LLMs",
             "tools": [
+                "Claude API",
                 "OpenAI API",
                 "LangChain",
                 "LangGraph",
-                "CrewAI",
                 "Hugging Face",
+                "Ollama",
                 "RAG",
-                "FAISS",
+                "Hybrid Retrieval",
+                "Reranking",
                 "Prompt Engineering",
-                "Fine-tuning",
-                "MCP"
+                "AI Agents",
+                "RAGAS"
             ]
         },
         {
-            "title": "NLP",
+            "title": "Backend & APIs",
             "tools": [
-                "spaCy",
-                "NLTK",
-                "Text Classification",
-                "NER",
-                "Sentiment Analysis",
-                "Document Intelligence"
+                "FastAPI",
+                "Flask",
+                "REST APIs",
+                "Streaming APIs (NDJSON/SSE)",
+                "Microservices"
             ]
         },
         {
-            "title": "Data Engineering",
-            "tools": [
-                "Apache Spark",
-                "PySpark",
-                "Kafka",
-                "Airflow",
-                "Snowflake",
-                "ETL Pipelines",
-                "Data Warehousing",
-                "Pandas",
-                "NumPy"
-            ]
-        },
-        {
-            "title": "Cloud & MLOps",
-            "tools": [
-                "AWS (SageMaker, S3, Lambda)",
-                "Azure ML",
-                "Databricks",
-                "Google Vertex AI",
-                "Docker",
-                "Kubernetes",
-                "MLflow",
-                "CI/CD",
-                "GitHub Actions"
-            ]
-        },
-        {
-            "title": "Databases & APIs",
+            "title": "Databases & Vector Stores",
             "tools": [
                 "PostgreSQL",
                 "MySQL",
                 "MongoDB",
-                "DynamoDB",
-                "Pinecone",
+                "SQLite",
                 "ChromaDB",
-                "FastAPI",
-                "Flask",
-                "REST",
-                "GraphQL"
+                "FAISS",
+                "Pinecone"
+            ]
+        },
+        {
+            "title": "MLOps & Cloud",
+            "tools": [
+                "Docker",
+                "Kubernetes",
+                "MLflow",
+                "CI/CD",
+                "GitHub Actions",
+                "AWS (SageMaker, S3, Lambda)",
+                "Databricks"
             ]
         }
     ],
