@@ -1,0 +1,8 @@
+{
+    "headline1": "Hi, I'm",
+    "headline2": "Sai Karthik Maddirala",
+    "roles": ["AI / ML Engineer", "Generative AI Developer", "LLM & RAG Architect", "Data Scientist", "MLOps Engineer"],
+    "tagline": "Building production-grade ML systems, LLM pipelines, and RAG architectures that turn data into decisions.",
+    "picture": "/assets/karthik_dp1.webp",
+    "jpg": "/assets/karthik_dp1.jpeg"
+}

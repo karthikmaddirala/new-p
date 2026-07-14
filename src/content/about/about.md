@@ -1,0 +1,5 @@
+Hi there ✌️ nice to meet you!
+
+I'm a passionate Data Engineer, Data Analyst and Machine Learning enthusiast with a strong foundation in building scalable data pipelines, extracting insights from complex datasets, and deploying intelligent systems. My background spans across distributed systems, data engineering, and advanced analytics, with hands-on experience in tools like Apache Spark, Kafka, AWS, Redshift, PowerBI etc. I love transforming raw data into meaningful solutions and enjoy designing real-time dashboards and predictive models that drive impact.
+
+With a Master's in Computer Science from the University of Kansas and a proven track record in academic research and real-world projects, I’m constantly seeking to build systems that are not only efficient, but also insightful and human-centered. Whether it's orchestrating pipelines, designing machine learning workflows, or diving into big data infrastructure — I strive to bridge engineering precision with analytical depth.

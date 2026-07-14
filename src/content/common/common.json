@@ -1,0 +1,28 @@
+{
+    "name": "Sai Karthik Maddirala",
+    "logoType": {
+        "mobile": "SK", 
+        "desktop": "Sai Karthik Maddirala"
+    },
+    "mainPicture": "/assets/karthik_dp1.webp",
+    "mainPictureJPG": "/assets/karthik_dp1.jpeg",
+    "cssVarPrefix": "",
+    "email": "saikarthikmaddirala0@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sai-karthik-maddirala-0067571a8/",
+    "github": "https://github.com/karthikmaddirala",
+    "resume": "https://drive.google.com/file/d/1TCccud-0fLR_tOre3x0cz9OYfDDXoxDA/view?usp=sharing",
+    "socials": [
+        {
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/in/sai-karthik-maddirala-0067571a8/"
+        },
+        {
+            "type": "github",
+            "link": "https://github.com/karthikmaddirala"
+        },
+        {
+            "type": "mail",
+            "link": "mailto:saikarthikmaddirala0@gmail.com"
+        }
+    ]
+}

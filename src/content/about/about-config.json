@@ -1,0 +1,168 @@
+{
+    "educations": [
+        {
+            "id": "edu-1",
+            "school": "University of Kansas",
+            "degree": "Master of Science in Computer Science",
+            "duration": "Aug 2023 – Dec 2025",
+            "content": [
+                "GPA: 3.78 / 4.0"
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "id": "exp-chubb",
+            "company": "Chubb Limited",
+            "position": "AI / ML Engineer",
+            "duration": "Feb 2026 – Present",
+            "description": [
+                "Contributed to an internal RAG-based document search prototype for insurance policy and claims documentation, helping reduce manual document lookup time by ~40% in internal user testing across a pilot group of 15 underwriters.",
+                "Worked with the Generative AI team on RAG applications integrated with vector database FAISS to index ~15K unstructured policy documents.",
+                "Used LangChain and OpenAI APIs to build proof-of-concept retrieval and Q&A workflows, iterating on prompt design and evaluation to achieve ~85% answer relevance on a 200-question internal benchmark.",
+                "Designed real-time and batch ETL/Data Pipelines using PySpark, Apache Kafka, and Apache Airflow for processing large-scale structured and unstructured data."
+            ]
+        },
+        {
+            "id": "exp-epic",
+            "company": "Epic Games",
+            "position": "Machine Learning Engineer",
+            "duration": "Jul 2024 – Dec 2025",
+            "description": [
+                "Developed and deployed AI/ML models supporting player behavior prediction, content recommendation, churn analysis, and gaming analytics using Python, Scikit-learn, XGBoost, and LightGBM.",
+                "Designed and deployed recommendation models using PyTorch and TorchRec, reducing model inference latency by ~35% through optimization and serving improvements.",
+                "Contributed to end-to-end MLOps pipelines using Docker, Kubernetes, Jenkins, and MLflow, supporting faster release cadence for Fortnite's Discovery ranking models.",
+                "Developed data preprocessing and feature engineering pipelines on Databricks using Pandas, NumPy, SQL, and PySpark, processing 5TB+ of gameplay data and reducing daily training job runtime from 6 hours to 2 hours.",
+                "Ran 8–10 A/B experiments across tenure; implemented model versioning and experiment tracking using MLflow and DVC."
+            ]
+        },
+        {
+            "id": "exp-tejas",
+            "company": "Tejas Networks",
+            "position": "Data Scientist",
+            "duration": "Dec 2021 – May 2023",
+            "description": [
+                "Built ML models using Scikit-learn, XGBoost, and LightGBM for anomaly detection and fault classification on equipment telemetry, improving fault classification accuracy from ~76% to ~84% across ~2,000 deployed network elements.",
+                "Performed time-series forecasting using ARIMA and Prophet to support internal revenue and demand planning, reducing forecast error on a key product line from ~15% to ~11%.",
+                "Built ETL pipelines using Apache Spark, Hive, SQL, and Apache Airflow handling ~10GB of weekly data, improving pipeline runtime by ~40% through partitioning and query optimization.",
+                "Created Power BI dashboards and automated reports for engineering and finance stakeholders, reducing manual reporting effort by 6–8 hours per week."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "title": "Languages",
+            "tools": [
+                "Python",
+                "SQL",
+                "JavaScript",
+                "TypeScript",
+                "Bash"
+            ]
+        },
+        {
+            "title": "Machine Learning",
+            "tools": [
+                "Scikit-learn",
+                "XGBoost",
+                "LightGBM",
+                "Regression",
+                "Classification",
+                "Clustering",
+                "Feature Engineering",
+                "Hyperparameter Tuning",
+                "SHAP",
+                "LIME"
+            ]
+        },
+        {
+            "title": "Deep Learning",
+            "tools": [
+                "PyTorch",
+                "TensorFlow",
+                "Keras",
+                "CNN",
+                "RNN",
+                "LSTM",
+                "Transformers",
+                "BERT"
+            ]
+        },
+        {
+            "title": "Generative AI & LLMs",
+            "tools": [
+                "OpenAI API",
+                "LangChain",
+                "LangGraph",
+                "CrewAI",
+                "Hugging Face",
+                "RAG",
+                "FAISS",
+                "Prompt Engineering",
+                "Fine-tuning",
+                "MCP"
+            ]
+        },
+        {
+            "title": "NLP",
+            "tools": [
+                "spaCy",
+                "NLTK",
+                "Text Classification",
+                "NER",
+                "Sentiment Analysis",
+                "Document Intelligence"
+            ]
+        },
+        {
+            "title": "Data Engineering",
+            "tools": [
+                "Apache Spark",
+                "PySpark",
+                "Kafka",
+                "Airflow",
+                "Snowflake",
+                "ETL Pipelines",
+                "Data Warehousing",
+                "Pandas",
+                "NumPy"
+            ]
+        },
+        {
+            "title": "Cloud & MLOps",
+            "tools": [
+                "AWS (SageMaker, S3, Lambda)",
+                "Azure ML",
+                "Databricks",
+                "Google Vertex AI",
+                "Docker",
+                "Kubernetes",
+                "MLflow",
+                "CI/CD",
+                "GitHub Actions"
+            ]
+        },
+        {
+            "title": "Databases & APIs",
+            "tools": [
+                "PostgreSQL",
+                "MySQL",
+                "MongoDB",
+                "DynamoDB",
+                "Pinecone",
+                "ChromaDB",
+                "FastAPI",
+                "Flask",
+                "REST",
+                "GraphQL"
+            ]
+        }
+    ],
+    "blog": [
+        {
+            "id": "",
+            "title": "",
+            "link": ""
+        }
+    ]
+}

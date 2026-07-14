@@ -1,0 +1,124 @@
+[
+    {
+        "id": "featured-project-voyager",
+        "title": "Voyager — Agentic AI Road-Trip Planner",
+        "year": "Jul 2026",
+        "github": "https://github.com/karthikmaddirala/voyager-ai-trip-planner",
+        "tags": [
+            "Agentic AI",
+            "LLM Tool-Use",
+            "Anthropic Claude",
+            "Python",
+            "Flask",
+            "Leaflet",
+            "OSRM",
+            "Google Places API",
+            "OpenStreetMap",
+            "Open-Meteo"
+        ],
+        "description": "An interactive, map-based road-trip planner driven by two AI agents — a tool-use planning agent that decides on its own when to call real-world APIs (Google Places ratings, OSRM drive times, seasonal weather, holidays) to plan the trip, and a stateful copilot that edits the route live from natural-language chat (\"add Vail, drop Denver\"). The models reason and act while free real-world APIs supply the facts, so every plan is grounded in real ratings, weather, and routing rather than guesses.",
+        "description2": "The planning agent sizes the trip to the real drive-in haul and a brisk sightseeing pace and ranks stops by blended value (rating × review count) — no hardcoded rules — while OSRM pins the exact drivable order. Human-in-the-loop throughout: refine on the map, tick the attractions worth your time, then generate a day-by-day itinerary with real hotels, drive legs, weather, and honest feasibility warnings.",
+        "demo": "/voyager-showcase.html",
+        "image": "/assets/featured-projects/voyager-full.svg",
+        "jpg": "/assets/featured-projects/voyager-full.svg"
+    },
+    {
+        "id": "featured-project-history-rag",
+        "title": "History RAG — Chat with Your Browsing History",
+        "year": "Jul 2026",
+        "github": "https://github.com/karthikmaddirala/RAG-History-Browser",
+        "tags": [
+            "RAG",
+            "LLM",
+            "ChromaDB",
+            "BM25",
+            "Hybrid Search",
+            "RRF",
+            "Cross-Encoder Rerank",
+            "FastAPI",
+            "React",
+            "Ollama",
+            "MLflow",
+            "Python"
+        ],
+        "description": "A local RAG system that lets you ask questions about your own Chrome browsing history in plain English. A local LLM router decides per query whether to search the history or answer directly; hybrid retrieval — dense vectors + BM25 + Reciprocal Rank Fusion + cross-encoder reranking — surfaces the most relevant pages, and a local Ollama LLM streams a grounded, cited answer into a React chat UI. 100% local: no data leaves the machine.",
+        "description2": "Ships with an offline LLMOps evaluation pipeline (retrieval metrics, RAGAS, LLM-as-judge) tracked in MLflow, background sync straight from Chrome's SQLite history, and a Manifest-V3 Chrome extension. Click to open the full animated architecture and docs.",
+        "demo": "/history-rag-showcase.html",
+        "image": "/assets/featured-projects/history-rag.svg",
+        "jpg": "/assets/featured-projects/history-rag.svg"
+    },
+    {
+        "id": "featured-project-trackcta",
+        "title": "Real time Stream Processing and Analytics Pipeline",
+        "year": "May 2025 - May 2025",
+        "report": "https://github.com/karthikmaddirala/Real-time-Smart-City-Streaming-Analytics-Pipeline/blob/main/Project%20Documentation.pdf",
+        "github": "https://github.com/karthikmaddirala/Real-time-Smart-City-Streaming-Analytics-Pipeline",
+        "tags": ["Kafka", "Spark", "S3", "Athena", "Redshift", "Glue", "Docker", "Python", "ETL"],
+        "description": "The Smart City Real-Time Streaming & Analytics Pipeline ingests real-time smart city IoT data (vehicle telemetry, GPS, weather, traffic, emergency events) through Apache Kafka, processes and enriches it using Spark Structured Streaming, stores both raw and enriched data in Amazon S3, catalogs the schema using AWS Glue Crawlers and the Data Catalog, enables ad-hoc SQL querying via Amazon Athena, and loads analytics-ready datasets into Amazon Redshift for business intelligence and reporting.",
+        "description2":"",
+        "image": "/assets/featured-projects/DataFlow.webp",
+        "jpg": "/assets/featured-projects/DataFlow.jpg"
+    },
+
+    {
+        "id": "featured-project-asctb-reporter",
+        "title": "Retail Analytics Pipeline using S3, Snowflake and Power-BI",
+        "year": "Feb 2025 - Feb 2025",
+        "report": "https://github.com/karthikmaddirala/Retail-Analytics-Pipeline-using-Snowflake-S3-and-Power-BI/tree/main/Reports",
+        "github": "https://github.com/karthikmaddirala/Retail-Analytics-Pipeline-using-Snowflake-S3-and-Power-BI",
+        "tags": ["S3", "Snowflake", "PowerBI", "SQL", "Data Modeling", "Data Visualization & Reporting", "DAX", "KPI's"],
+        "description": "This project presents an end-to-end retail analytics pipeline that simulates a Point of Sale (POS) data flow. It leverages Amazon S3 for data storage, Snowflake for warehousing and semantic modeling, and Power BI for real-time dashboarding. The goal is to deliver business insights from structured sales and customer data.  I modeled the schema in Snowflake using a star schema, and built a semantic layer using SQL views and Power BI relationships to define KPIs, hierarchies, and drill-down paths for analysis.",
+        "description2":"Designed and published 3 dynamic Power BI dashboards, enabling data-driven decisions across 50+ store locations. Authored 4 professional-grade reports and delivered schema documentation, ensuring technical clarity, stakeholder alignment, and auditability for BI/analytics teams.",
+        "image": "/assets/featured-projects/Overview.webp",
+        "jpg": "/assets/featured-projects/Overview.jpg"
+    },
+    {
+        "id": "featured-project-scrapbook",
+        "title": "House Price Prediction using Ensemble learning",
+        "year": "",
+        "tags": [
+            "Machine Learning",
+            "Matplotlib",
+            "Seaborn",
+            "Pandas",
+            "Numpy",
+            "Scipy",
+            "Python",
+            "Feature Engineering",
+            "Data Trasformation",
+            "Data Visualization"
+        ],
+        "report": "https://github.com/karthikmaddirala/California-House-Price-Prediction-using-Ensemble-learning/blob/main/01_Report---House%20Price%20Prediction.pdf",
+        "github": "https://github.com/karthikmaddirala/California-House-Price-Prediction-using-Ensemble-learning",
+        "description": "This project predicts housing prices using classical and ensemble machine learning algorithms across two real estate datasets — California and King County. It involves comprehensive data preprocessing, exploratory analysis, and visualization to extract meaningful patterns. Key steps include handling missing data, outlier removal, feature engineering, and transformation. Multiple regression models were trained and evaluated, with CatBoost achieving over 90% accuracy, making the system reliable for real estate insights and price forecasting.",
+        "description2":"",
+        "image": "/assets/featured-projects/house.webp",
+        "jpg": "/assets/featured-projects/house.jpg"
+    },
+
+    {
+        "id": "Crop_Prediction",
+        "title": "Crop Recommendation and Yeild Prediction",
+        "year": "",
+        "tags": [
+            "Machine Learning",
+            "Data Analysis",
+            "Data Preprocessing",
+            "Matplotlib",
+            "Model Evaluation",
+            "Seaborn",
+            "Pandas",
+            "Numpy",
+            "Scipy",
+            "Python",
+            "Feature Engineering",
+            "Data Trasformation",
+            "Data Visualization"
+        ],
+        "github": "https://github.com/karthikmaddirala/Crop-Prediction",
+        "description": "The Crop Recommendation and Yield Prediction System is a machine learning project that aids precision agriculture by recommending suitable crops based on soil and weather conditions and predicting crop yields using historical data. The Naive Bayes model achieved 97.28% accuracy for crop recommendation, while Random Forest reached a 97.3% R² score for yield prediction. Built with Python and Scikit-learn, the project demonstrates the impact of ML in enhancing agricultural decision-making.",
+        "description2":"",
+        "image": "/assets/featured-projects/crop.webp",
+        "jpg": "/assets/featured-projects/crop.jpg"
+    }
+]
