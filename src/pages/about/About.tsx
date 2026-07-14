@@ -22,9 +22,9 @@ export const About: FC = () => {
     const mutedColor = useColorModeValue("gray.600", "whiteAlpha.700");
 
     const summary =
-        "AI/ML Engineer specializing in Generative AI and LLM agents.\n" +
-        "Building AR virtual try-on and retrieval-augmented (RAG) systems with PyTorch, LangChain, and Claude/OpenAI APIs.\n" +
-        "Owning the lifecycle from training through real-time inference, deployment, and monitoring.";
+        "ML / AI Engineer with hands-on experience across the full model lifecycle — data curation, training, evaluation, deployment, and monitoring.\n" +
+        "Skilled across deep learning, computer vision, and Generative AI / LLM systems (RAG, AI agents) using PyTorch, LangChain, and Claude/OpenAI APIs.\n" +
+        "Focused on shipping production-grade, real-time ML systems with strong MLOps practices across cloud and containerized environments.";
 
     return (
         <Box>
